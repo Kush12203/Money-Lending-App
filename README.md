@@ -22,15 +22,15 @@ Functionality : Registers a new user, approving or rejecting the application bas
 
 ![Signup(Age)](https://github.com/user-attachments/assets/96907575-f0e7-4303-bf92-0a7f4797c612)
 
-                                            User should be above 20 years of age
+                                           User should be above 20 years of age
 
 ![Signup(salary)](https://github.com/user-attachments/assets/7591fe1f-4b7f-435c-921d-414ef46bec7a)
 
-                                            Monthly salary should be 25k or more
+                                           Monthly salary should be 25k or more
 
 ![Signup](https://github.com/user-attachments/assets/57b7c9d2-8717-4a61-9405-18c2ddf2d26a)
 
-                                               Signup Application Approved
+                                              Signup Application Approved
  
 
 2 . Login API (POST Request) ~/api/auth/login
@@ -39,7 +39,7 @@ Functionality : Authenticates users based on their email and password. On succes
 
 ![Login](https://github.com/user-attachments/assets/4acadb1c-eecb-4694-9dd5-3c7aa852774a)
 
-                                                      User Logged In
+                                                    User Logged In
 3 . Show User Data API (GET Request) ~/api/user
 
 Functionality : Retrieves and returns user data, including purchase power amount, phone number, email, registration date, date of birth, and monthly salary. Requires a valid JWT token.
@@ -50,7 +50,7 @@ Functionality : Retrieves and returns user data, including purchase power amount
 
 ![Get](https://github.com/user-attachments/assets/4b676a49-8850-4f1e-bcc7-5b94f26ab8ba)
 
-                                                    Displaying User Data 
+                                                   Displaying User Data 
 
 4 . Borrow Money API (POST Request) ~/api/user/borrow      
 
