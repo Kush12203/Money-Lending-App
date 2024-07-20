@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); //Import Mongoose
 
+// Defining User Schema
 const userSchema = new mongoose.Schema({
   phoneNumber: { type: String, required: true, unique: true },
   email: { type: String, required: true, unique: true },
@@ -12,4 +13,4 @@ const userSchema = new mongoose.Schema({
   purchasePower: { type: Number, default: 0 }
 });
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('User', userSchema); //exporting the user model
